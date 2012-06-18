@@ -1,16 +1,16 @@
 " vim:ts=8 sts=2 sw=2 tw=0 nowrap:
 "
-" memo.vim - newton-tecnologies' “ú•ñ—pƒVƒ“ƒ^ƒbƒNƒX’è‹`
+" memo.vim - newton-tecnologies' æ—¥å ±ç”¨ã‚·ãƒ³ã‚¿ãƒƒã‚¯ã‚¹å®šç¾©
 "
 " Language:	dailyreport
 " Maintainer:
 " Last Change:	2012-06-14
 
-scriptencoding cp932
+" scriptencoding cp932
 
 syntax match dailyReportSubject display "\%1l.*"
-syntax match dailyReportCategory display "á.\+â"
-syntax match dailyReportDateTitle display "^.\+Œ.\+“ú“ú•ñ"
+syntax match dailyReportCategory display "â‰ª.\+â‰«"
+syntax match dailyReportDateTitle display "^.\+æœˆ.\+æ—¥æ—¥å ±"
 syntax match dailyReportDate display "^\d\+/\k\+/\d\+\(\.\)\="
 syntax match dailyReportTime display "[0-9]\+:[0-9]\+"
 syntax match dailyReportTodo display "@@"
