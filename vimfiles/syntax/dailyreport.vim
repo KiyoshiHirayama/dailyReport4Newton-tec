@@ -6,7 +6,7 @@
 " Maintainer:
 " Last Change:	2012-06-14
 
-" scriptencoding cp932
+scriptencoding utf-8
 
 syntax match dailyReportSubject display "\%1l.*"
 syntax match dailyReportCategory display "≪.\+≫"
