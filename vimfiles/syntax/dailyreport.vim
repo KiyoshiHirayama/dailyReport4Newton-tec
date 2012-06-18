@@ -1,6 +1,6 @@
 " vim:ts=8 sts=2 sw=2 tw=0 nowrap:
 "
-" memo.vim - 日報用シンタックス定義
+" memo.vim - newton-tecnologies' 日報用シンタックス定義
 "
 " Language:	dailyreport
 " Maintainer:
