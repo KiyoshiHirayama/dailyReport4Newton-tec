@@ -15,6 +15,7 @@ syntax match dailyReportDate display "^\d\+/\k\+/\d\+\(\.\)\="
 syntax match dailyReportTime display "[0-9]\+:[0-9]\+"
 syntax match dailyReportTodo display "@@"
 syntax match dailyReportCommentVim  display '^\s*vi\(m\)\=:[^:]*:'
+syntax match dailyReportProject display "\[.\+\]"
 
 
 hi def link dailyReportSubject		Title
@@ -24,5 +25,6 @@ hi def link dailyReportTime		Constant
 hi def link dailyReportDate		Comment
 hi def link dailyReportTodo		Todo
 hi def link dailyReportCommentVim	PreProc
+hi def link dailyReportProject		Identifier
 
 let b:current_syntax = "dailyreport"
